@@ -2,7 +2,6 @@ package way.finder.entity;
 
 import java.io.Serializable;
 
-import club.nautico.entidades.Socio;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -19,7 +18,6 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@EqualsAndHashCode(of = "id")
 @Builder
 @Entity
 @Table(name = "user")
